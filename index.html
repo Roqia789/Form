@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Title of the document</title>
+
+    <style type="text/css">
+        #name{background-color: #b1a886ef;
+        padding: 30px;}
+        #pers{
+            background-color: rgb(95, 95, 145);
+        }
+        legend{
+            background-color: rgb(107, 106, 108);
+            color: aliceblue;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend id="pers">Personal Date</legend>        
+        <fieldset id="name">
+            <legend>Your Name</legend>
+            <table>
+                <tr>
+                    <td>
+                       <label for="name1">First Name:</label>                       
+                    </td>
+                    <td>
+                         <input type="text" id="name1" placeholder="enter ur first name"> 
+                    </td>
+                </tr>
+             <tr>
+                <td>
+                   <label for="name2">Second Name:</label>                 
+                </td>
+                <td>
+                     <input type="text" id="name2" placeholder="enter ur second name">  
+                </td>
+             </tr>                  
+                  </table> 
+              </fieldset>
+    <br><br>
+        <table>
+            <tr>
+                <td>
+<label for="phone">Your Phone:</label>
+                </td>
+                <td>
+<input type="text" id="phone">
+                </td>               
+            </tr>
+            <tr>
+                <td>
+ <label for="email">Your Email:</label>
+                </td>
+                <td>
+<input type="text" id="email" >
+                </td>
+            </tr>
+            <tr>
+                <td>
+ <label for="password">Your Password:</label>
+                </td>
+                <td>
+<input type="text3" id="password" type="password">
+                </td>
+            </tr>
+            <tr>
+                <td>
+ <label for="re-password" >Your Re-Password:</label>
+                </td>
+                <td>
+<input type="text4" id="re-password" type="re-password">
+                </td>
+            </tr>
+        </table>
+    </form>
+    <br><br><br>
+        <table>
+            <label for="gender">Choose ur gender</label>
+            <tr>
+                <td>
+                    <input type="radio" id="male" name="gender" value="male">
+                </td>
+                <td>
+                    <label for="male">Male</label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="radio" id="female" name="gender" value="female">
+                </td>
+                <td>
+                    <label for="female">Female</label>
+                </td>
+            </tr>
+        </table>
+    <br><br>
+        <table>
+            <tr>
+                <td>
+<input type="checkbox" id="student" name="status" value="student">
+                </td>
+                <td>
+<label for="student">Student</label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+<input type="checkbox" id="graduated" name="status" value="graduated">
+                </td>
+                <td>
+<label for="graduated">Graduated</label>
+                </td>
+            </tr>
+        </table>
+    <br><br>
+    <input type="text" placeholder="select" list="countries">
+    <datalist id="countries">
+        <option value="AUC">
+        <option value="BUE">
+        <option value="MIS">
+    </datalist>
+    <br>   
+        <img src="img/submit-button-design.png" alt="submit-button-design" width="50px">
+</fieldset>
+</form>
+
+</body>
+</html>
